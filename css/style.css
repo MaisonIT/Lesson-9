@@ -1,0 +1,241 @@
+/* Обнуляющий стиль */
+@import url("null.css");
+
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+body {
+	background: radial-gradient(
+		circle,
+		rgba(20, 2, 17, 1) 0%,
+		rgba(92, 69, 69, 0.8883928571428571) 52%,
+		rgba(0, 0, 0, 0.8211659663865546) 100%
+	);
+	font-family: "Russo One", sans-serif;
+	font-weight: bold;
+	color: blanchedalmond;
+	text-shadow: 2px 2px 5px black;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.start-image {
+	width: 50px;
+	height: 50px;
+}
+.header {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.main-title {
+	letter-spacing: 5px;
+	font-size: 50px;
+	margin: 0 0 30px;
+}
+.sub-title {
+	font-size: 30px;
+}
+.container {
+	font-size: 0;
+	background: rgba(0, 0, 0, 0.733);
+}
+.line-1 {
+	width: 50px;
+	height: 100px;
+	background: wheat;
+}
+.line-2 {
+	width: 50px;
+	height: 100px;
+	background: wheat;
+	display: inline-block;
+}
+.line-3 {
+	height: 50px;
+	width: 200px;
+	background: wheat;
+	visibility: hidden;
+	display: inline-block;
+}
+.line-4 {
+	height: 50px;
+	width: 200px;
+	background: wheat;
+	display: inline-block;
+	visibility: hidden;
+}
+.line-5 {
+	height: 50px;
+	width: 200px;
+	background: wheat;
+	display: inline-block;
+	visibility: hidden;
+}
+.line-6 {
+	height: 50px;
+	width: 200px;
+	display: inline-block;
+	background: wheat;
+	visibility: hidden;
+}
+.line-7 {
+	width: 50px;
+	height: 250px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 800px;
+}
+.line-8 {
+	width: 250px;
+	height: 50px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 600px;
+}
+.line-9 {
+	width: 50px;
+	height: 200px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 600px;
+}
+.line-10 {
+	width: 400px;
+	height: 50px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 600px;
+}
+.line-11 {
+	width: 50px;
+	height: 200px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 950px;
+}
+.line-12 {
+	width: 700px;
+	height: 50px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 300px;
+}
+.line-13 {
+	width: 50px;
+	height: 500px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 300px;
+}
+.line-14 {
+	width: 700px;
+	height: 50px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 300px;
+}
+.line-15 {
+	width: 50px;
+	height: 600px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 950px;
+}
+.line-16 {
+	width: 500px;
+	height: 50px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 500px;
+}
+.line-17 {
+	width: 50px;
+	height: 200px;
+	background: wheat;
+	visibility: hidden;
+	margin-left: 500px;
+}
+.line-1:hover + .line-2,
+.line-2:hover {
+	visibility: visible;
+}
+.line-2:hover + .line-3,
+.line-3:hover {
+	visibility: visible;
+}
+.line-3:hover + .line-4,
+.line-4:hover {
+	visibility: visible;
+}
+.line-4:hover + .line-5,
+.line-5:hover {
+	visibility: visible;
+}
+.line-5:hover + .line-6,
+.line-6:hover {
+	visibility: visible;
+}
+.line-6:hover + .line-7,
+.line-7:hover {
+	visibility: visible;
+}
+.line-7:hover + .line-8,
+.line-8:hover {
+	visibility: visible;
+}
+.line-8:hover + .line-9,
+.line-9:hover {
+	visibility: visible;
+}
+.line-9:hover + .line-10,
+.line-10:hover {
+	visibility: visible;
+}
+.line-10:hover + .line-11,
+.line-11:hover {
+	visibility: visible;
+}
+.line-11:hover + .line-12,
+.line-12:hover {
+	visibility: visible;
+}
+.line-12:hover + .line-13,
+.line-13:hover {
+	visibility: visible;
+}
+.line-13:hover + .line-14,
+.line-14:hover {
+	visibility: visible;
+}
+.line-14:hover + .line-15,
+.line-15:hover {
+	visibility: visible;
+}
+.line-15:hover + .line-16,
+.line-16:hover {
+	visibility: visible;
+}
+.line-16:hover + .line-17,
+.line-17:hover {
+	visibility: visible;
+}
+.line-17:hover + .image-bat,
+.image-bat:hover {
+	visibility: visible;
+}
+
+.image-bat {
+	width: 1000px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.main-image img {
+	box-shadow: 0 0 10px 10px white;
+	width: 1000px;
+	height: 800px;
+}
